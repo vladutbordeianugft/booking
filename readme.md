@@ -21,9 +21,9 @@ I used [postman][postman] app to make api requests
 - create trip: `/api/trip/create` (fields: title, description, start_date, end_date, location, price)
 -- start_date and end_date must be datetime format (YYYY-MM-DD HH:MM:SS)
 - get all trips: `/api/trip/read` (filters fields if need: search, orderBy, priceRange)
--- `search`: any string (will search on trip title using 'like' method. We can use full text search for better search relevance)
--- `orderBy`: price-asc, price-desc, start-date-asc, start-date-end 
--- `priceRange`: 0-99999 (e.g: 1-90, will return prices starting from 1 to 90)
+* `search`: any string (will search on trip title using 'like' method. We can use full text search for better search relevance)
+* `orderBy`: price-asc, price-desc, start-date-asc, start-date-end 
+* `priceRange`: 0-99999 (e.g: 1-90, will return prices starting from 1 to 90)
 - get trip by slug: `/api/trip/read` (fields: slug)
 
 ###### BOOKING API 
