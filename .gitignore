@@ -1,0 +1,13 @@
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+
+/phpmyadmin
+/vendor
+/vendor/
+/vendor/*
+!*.gitkeep/

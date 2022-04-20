@@ -1,0 +1,6 @@
+{
+    "require": {
+        "firebase/php-jwt": "^6.1",
+        "robmorgan/phinx": "^0.12.10"
+    }
+}

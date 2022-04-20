@@ -1,0 +1,19 @@
+RewriteEngine on
+
+
+
+#CREATE API ROUTE
+RewriteRule ^api/([a-z0-9-]+)/create$ api/create.php?obj=$1 [L,QSA]
+
+#LOGIN USER ROUTE
+RewriteRule ^api/user/login$ api/user/login.php?obj=$1 [L,QSA]
+
+
+#READ API ROUTE
+RewriteRule ^api/([a-z0-9-]+)/read$ api/read.php?obj=$1 [L,QSA]
+
+#BOOK API ROUTE
+RewriteRule ^api/([a-z0-9-]+)/book$ api/trip/book.php?obj=$1 [L,QSA]
+
+
+RewriteRule ^app/([a-z0-9-]+) index.php?page=$1 [L,QSA]
