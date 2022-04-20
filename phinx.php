@@ -21,9 +21,9 @@ return
         'development' => [
             'adapter' => 'mysql',
             'host' => 'localhost',
-            'name' => 'ezygygafwc',
-            'user' => 'ezygygafwc',
-            'pass' => 'nhvFKAg6D4',
+            'name' => '',
+            'user' => '',
+            'pass' => '',
             'port' => '3306',
             'charset' => 'utf8',
         ],

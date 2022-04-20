@@ -98,16 +98,16 @@ if($loaded_page == "logout"){
 <body>
 
 	<ul class="menu">
-		<li><a href="/">Home</a></li>
-		<li><a href="/app/trips">View trips</a></li>
+		<li><a href="<?=BASE_URL;?>/">Home</a></li>
+		<li><a href="<?=BASE_URL;?>/app/trips">View trips</a></li>
 		<?php
 		if($logged_in){
 		?>
-			<li><a href="/app/logout">Log out?</a></li>
+			<li><a href="<?=BASE_URL;?>/app/logout">Log out?</a></li>
 		<?php
 		}else{
 		?>
-			<li><a href="/app/login">Login</a></li>
+			<li><a href="<?=BASE_URL;?>/app/login">Login</a></li>
 		<?php
 		}
 		?>
